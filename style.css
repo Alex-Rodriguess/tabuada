@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+input {
+    font-size: 25px;
+}
+
+button {
+    font-size: 25px;
+    background-color: rgb(174, 69, 157);
+    padding: 5px;
+}
+
+.resposta {
+    display: inline;
+    
+}
