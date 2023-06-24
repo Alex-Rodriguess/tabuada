@@ -4,27 +4,36 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 50px;
+    background-image: url(https://www.soescola.com/wp-content/uploads/2019/08/caderno-de-atividades-de-matematica-para-ensino-fundamental-e-medio.jpg);
+    background-repeat: no-repeat;
 }
 
-h1 {
+.container {
+    padding-left: 150px;
+}
+
+.container h1 {
     padding-bottom: 20px;
+    color: #0f0e0e;
 }
 
-input {
+.container input {
     font-size: 25px;
 }
 
-button {
-    font-size: 25px;
-    background-color: rgb(174, 69, 157);
-    padding: 5px;
+.container button {
+    font-size: 22px;
+    background-color: rgba(174, 69, 156, 0.703);
+    padding: 2px;
+    border-radius: 10px;
 }
 
-.resposta {
+#resposta {
+    padding-block: 30px;
     display: inline;
+    color: #111111;
+    font-size: 30px;
     
 }
+
