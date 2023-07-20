@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <h1>Tabuada do número:</h1>
         <input type="number" id="numero" placeholder="Digite um número">
-        <button onclick="tabuada()">Mostrar</button>
+        <button class="btn_mostrar" onclick="tabuada()">Mostrar</button>
         <div> <br>
             <h2>Resultado da Tabuada:</h2> <br>
             <div id="resposta"></div>
         </div>
-    </div>
+        <div>
+            <button id="btdark">Dark Mode</button>
+            <button id="btlight">Light Mode</button>
+        </div>
+        
+    </main>
     
     <script src="./script.js"></script>
 </body>
